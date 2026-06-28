@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects_CSharp\\main_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\itask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\itask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Program.cs",
+              "RelativeDocumentMoniker": "main_1\\Program.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Program.cs",
+              "RelativeToolTip": "main_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T08:48:49.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITask.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\ITask.cs",
+              "RelativeDocumentMoniker": "main_1\\ITask.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\ITask.cs",
+              "RelativeToolTip": "main_1\\ITask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T08:46:21.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "main_1\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "main_1\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T08:41:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task5.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task5.cs",
+              "RelativeDocumentMoniker": "main_1\\Task5.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task5.cs",
+              "RelativeToolTip": "main_1\\Task5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T08:40:44.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task4.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task4.cs",
+              "RelativeDocumentMoniker": "main_1\\Task4.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task4.cs",
+              "RelativeToolTip": "main_1\\Task4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T07:48:21.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
