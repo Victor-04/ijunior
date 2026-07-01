@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml.Schema;
 
 namespace main_1
 {
@@ -11,6 +12,7 @@ namespace main_1
             ulong cristalBalance = 0;
             ulong cristalPrice = 10;
             ulong cristalRequirement = 0;
+            ulong totalPrice = 0;
 
             Console.WriteLine("Сколько у вас золота?");
             goldBalance = Convert.ToUInt64(Console.ReadLine());
@@ -19,18 +21,16 @@ namespace main_1
             Console.WriteLine("Сколько хотите купить Кристалов?");
             cristalRequirement = Convert.ToUInt64(Console.ReadLine());
 
-            try
-            {
-                checked
-                {
-                    goldBalance = goldBalance - cristalRequirement * cristalPrice;
-                    cristalBalance = cristalRequirement;
-                }
-            }
-            catch (OverflowException)
+            totalPrice = cristalRequirement * cristalPrice;
+            if (totalPrice >= goldBalance)
             {
                 cristalBalance = goldBalance / cristalPrice;
-                goldBalance = goldBalance - (cristalBalance * cristalPrice);
+                goldBalance -= cristalBalance * cristalPrice;
+            }
+            else
+            {
+                cristalBalance = cristalRequirement;
+                goldBalance -= cristalRequirement * cristalPrice;
             }
 
             Console.WriteLine("----------------- конец сделки -----------------");

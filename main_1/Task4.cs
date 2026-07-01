@@ -6,10 +6,11 @@ namespace main_1
     {
         public void Run()
         {
-            int count = 52;
-            int filled = count / 3;
-            int remains = count % 3;
-            Console.WriteLine("52 картинки по 3 в ряд");
+            int countImage = 52;
+            int countOneRow = 3;
+            int filled = countImage / countOneRow;
+            int remains = countImage % countOneRow;
+            Console.WriteLine($"{countImage} картинки по {countOneRow} в ряд");
             Console.WriteLine("----------------------");
             Console.WriteLine($"Заполнено рядов: {filled}");
             Console.WriteLine($"Остаток: {remains}");
