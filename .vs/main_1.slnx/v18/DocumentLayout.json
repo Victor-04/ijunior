@@ -7,7 +7,15 @@
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\Projects_CSharp\\main_1\\main_1\\task21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +62,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task24.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
+              "RelativeDocumentMoniker": "main_1\\Task24.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
+              "RelativeToolTip": "main_1\\Task24.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T05:55:24.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task23.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task23.cs",
+              "RelativeDocumentMoniker": "main_1\\Task23.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task23.cs",
+              "RelativeToolTip": "main_1\\Task23.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T05:39:53.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Task22.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task22.cs",
               "RelativeDocumentMoniker": "main_1\\Task22.cs",
               "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task22.cs",
               "RelativeToolTip": "main_1\\Task22.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T05:22:48.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Task21.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task21.cs",
               "RelativeDocumentMoniker": "main_1\\Task21.cs",
@@ -75,12 +109,11 @@
               "RelativeToolTip": "main_1\\Task21.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T17:33:23.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T17:33:23.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Task6.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task6.cs",
               "RelativeDocumentMoniker": "main_1\\Task6.cs",
@@ -92,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Task7.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task7.cs",
               "RelativeDocumentMoniker": "main_1\\Task7.cs",
@@ -104,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Task4.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task4.cs",
               "RelativeDocumentMoniker": "main_1\\Task4.cs",
@@ -116,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Program.cs",
               "RelativeDocumentMoniker": "main_1\\Program.cs",
@@ -128,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "main_1\\Properties\\AssemblyInfo.cs",
@@ -140,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Task5.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task5.cs",
               "RelativeDocumentMoniker": "main_1\\Task5.cs",
