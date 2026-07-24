@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\Projects_CSharp\\main_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\Projects_CSharp\\main_1\\main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\Projects_CSharp\\main_1\\main_1\\task23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,9 +53,23 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 149,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task24.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
+              "RelativeDocumentMoniker": "main_1\\Task24.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
+              "RelativeToolTip": "main_1\\Task24.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T05:55:24.916Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -62,20 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task24.cs",
-              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
-              "RelativeDocumentMoniker": "main_1\\Task24.cs",
-              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
-              "RelativeToolTip": "main_1\\Task24.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T05:55:24.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Task23.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task23.cs",
               "RelativeDocumentMoniker": "main_1\\Task23.cs",
@@ -88,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Task22.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task22.cs",
               "RelativeDocumentMoniker": "main_1\\Task22.cs",
               "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task22.cs",
               "RelativeToolTip": "main_1\\Task22.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAB0AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T05:22:48.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Task21.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task21.cs",
               "RelativeDocumentMoniker": "main_1\\Task21.cs",
@@ -113,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Task6.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task6.cs",
               "RelativeDocumentMoniker": "main_1\\Task6.cs",
@@ -125,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Task7.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task7.cs",
               "RelativeDocumentMoniker": "main_1\\Task7.cs",
@@ -137,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Task4.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task4.cs",
               "RelativeDocumentMoniker": "main_1\\Task4.cs",
@@ -149,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Program.cs",
               "RelativeDocumentMoniker": "main_1\\Program.cs",
@@ -161,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "main_1\\Properties\\AssemblyInfo.cs",
@@ -173,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Task5.cs",
               "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task5.cs",
               "RelativeDocumentMoniker": "main_1\\Task5.cs",
@@ -182,6 +187,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T08:40:44.919Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task25.cs",
+              "DocumentMoniker": "D:\\Projects_CSharp\\main_1\\main_1\\Task25.cs",
+              "RelativeDocumentMoniker": "main_1\\Task25.cs",
+              "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task25.cs",
+              "RelativeToolTip": "main_1\\Task25.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:22:32.506Z",
+              "EditorCaption": ""
             }
           ]
         }
