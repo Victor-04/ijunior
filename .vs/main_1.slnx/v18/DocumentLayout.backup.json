@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\Projects_CSharp\\main_1\\main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\projects_csharp\\main_1\\main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\Projects_CSharp\\main_1\\main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -64,11 +64,19 @@
               "RelativeDocumentMoniker": "main_1\\Task24.cs",
               "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task24.cs",
               "RelativeToolTip": "main_1\\Task24.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T05:55:24.916Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -80,8 +88,7 @@
               "RelativeToolTip": "main_1\\Task23.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T05:39:53.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T05:39:53.386Z"
             },
             {
               "$type": "Document",
@@ -93,8 +100,7 @@
               "RelativeToolTip": "main_1\\Task22.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T05:22:48.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T05:22:48.487Z"
             },
             {
               "$type": "Document",
@@ -194,7 +200,7 @@
               "RelativeDocumentMoniker": "main_1\\Task25.cs",
               "ToolTip": "D:\\Projects_CSharp\\main_1\\main_1\\Task25.cs",
               "RelativeToolTip": "main_1\\Task25.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwD4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-24T19:22:32.506Z",
               "EditorCaption": ""

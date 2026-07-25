@@ -6,20 +6,22 @@ namespace main_1
 {
     public class Task25 : ITask
     {
-        const string textCommandHelp = "/help";
-        const string textCommandSysInfo = "/info";
-        const string textCommandRandomNumber = "/random";
-        const string textCommandClear = "/clean";
-        const string textCommandExit = "/exit";
+        const string CommandHelpValue = "/help";
+        const string CommandSysInfoValue = "/info";
+        const string CommandRandomNumberValue = "/random";
+        const string CommandClearValue = "/clean";
+        const string CommandExitValue = "/exit";
+
+        const int MaxRandomValue = 9999999;
 
         public void Run()
         {
             string comand = "";
 
             Console.Clear();
-            Console.WriteLine("Enter '/help' to get help");
+            Console.WriteLine($"Enter '{CommandHelpValue}' to get help");
 
-            while (comand != textCommandExit)
+            while (comand != CommandExitValue)
             {
                 Console.Write("Your Command: "); 
                 comand = Console.ReadLine();
@@ -27,23 +29,23 @@ namespace main_1
 
                 switch (comand)
                 {
-                    case textCommandHelp:
+                    case CommandHelpValue:
                         CommandHelp(); 
                         break;
 
-                    case textCommandSysInfo:
+                    case CommandSysInfoValue:
                         CommandSysInfo();
                         break;
 
-                    case textCommandRandomNumber:
+                    case CommandRandomNumberValue:
                         CommandRandomNumber();
                         break;
 
-                    case textCommandClear:
+                    case CommandClearValue:
                         Console.Clear();
                         break;
 
-                    case textCommandExit:
+                    case CommandExitValue:
                         break;
 
                     default:
@@ -51,7 +53,7 @@ namespace main_1
                         break;
                 }
 
-                if (comand != textCommandClear)
+                if (comand != CommandClearValue)
                 {
                     Console.WriteLine();
                 }
@@ -62,11 +64,11 @@ namespace main_1
 
         private void CommandHelp()
         {
-            Console.WriteLine($"  {textCommandHelp}     - Show this help message");
-            Console.WriteLine($"  {textCommandSysInfo}     - Display system information");
-            Console.WriteLine($"  {textCommandRandomNumber}   - Generate a random number");
-            Console.WriteLine($"  {textCommandClear}    - Clear the console screen");
-            Console.WriteLine($"  {textCommandExit}     - Exit the program");
+            Console.WriteLine($"  {CommandHelpValue}     - Show this help message");
+            Console.WriteLine($"  {CommandSysInfoValue}     - Display system information");
+            Console.WriteLine($"  {CommandRandomNumberValue}   - Generate a random number");
+            Console.WriteLine($"  {CommandClearValue}    - Clear the console screen");
+            Console.WriteLine($"  {CommandExitValue}     - Exit the program");
         }
 
         private void CommandSysInfo()
@@ -85,8 +87,8 @@ namespace main_1
         private void CommandRandomNumber()
         {
             var random = new Random();
-            int randValue = random.Next(9999999);
-            Console.WriteLine($"{randValue}");
+            int randomValue = random.Next(MaxRandomValue);
+            Console.WriteLine($"{randomValue}");
         }
     }
 }
