@@ -5,3 +5,10 @@ D:\Projects_CSharp\main_1\main_1\obj\Debug\main_1.csproj.AssemblyReference.cache
 D:\Projects_CSharp\main_1\main_1\obj\Debug\main_1.csproj.CoreCompileInputs.cache
 D:\Projects_CSharp\main_1\main_1\obj\Debug\main_1.exe
 D:\Projects_CSharp\main_1\main_1\obj\Debug\main_1.pdb
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\bin\Debug\main_1.exe.config
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\bin\Debug\main_1.exe
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\bin\Debug\main_1.pdb
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.csproj.AssemblyReference.cache
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.csproj.CoreCompileInputs.cache
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.exe
+C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.pdb
