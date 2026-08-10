@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Reflection;
 using System.Windows.Input;
 
@@ -7,31 +8,28 @@ namespace main_1
 {
     public class Task29 : ITask
     {
-        const int LowerBorder = 50;
-        const int UpperBorder = 150;
-
         public void Run()
         {
-            int lowerGenerate = 10;
-            int upperGenerate = 25;
-            int startTargetValue = 0;
+            const int LowerBorder = 50;
+            const int UpperBorder = 150;
+            const int lowerGenerate = 10;
+            const int upperGenerate = 25;
+
             int targetValue = 0;
             int numberOccurrences = 0;
 
-            var r = new Random();
-            startTargetValue = r.Next(lowerGenerate, upperGenerate);
-            targetValue = startTargetValue;
+            var random = new Random();
+            targetValue = random.Next(lowerGenerate, upperGenerate + 1);
 
-            Console.WriteLine($"Число: {startTargetValue}");
+            Console.WriteLine($"Число: {targetValue}");
 
-            while (startTargetValue < UpperBorder)
+            for (int index = targetValue; index < UpperBorder; index += targetValue)
             {
-                if (startTargetValue > LowerBorder)
+                if (index > LowerBorder)
                 {
                     numberOccurrences ++;
-                    Console.WriteLine($"Вхождение: {startTargetValue}");
+                    Console.WriteLine($"Вхождение: {index}");
                 }
-                startTargetValue += targetValue;
             }
 
             Console.WriteLine($"Кол-во кратных {targetValue}: {numberOccurrences}");

@@ -13,6 +13,7 @@ namespace main_1
             char symbol = '-';
             int lengthLine = 0;
             string inputLine = "";
+            string borderLine = "";
 
             Console.Write("Ввидите символ: ");
             inputLine = Console.ReadLine();
@@ -24,27 +25,21 @@ namespace main_1
             }
 
             symbol = inputLine[0];
-
             Console.Write("Ввидите Имя: ");
             inputLine = Console.ReadLine();
 
             inputLine = symbol + inputLine + symbol;
             lengthLine = inputLine.Length;
 
-            Console.WriteLine();
             for (int i = 0; i < lengthLine; i++)
             {
-                Console.Write(symbol);
+                borderLine += symbol;
             }
-            Console.WriteLine();
 
+            Console.WriteLine();
+            Console.WriteLine(borderLine);
             Console.WriteLine(inputLine);
-
-            for (int i = 0; i < lengthLine; i++)
-            {
-                Console.Write(symbol);
-            }
-            Console.WriteLine();
+            Console.WriteLine(borderLine);
         }
     }
 }

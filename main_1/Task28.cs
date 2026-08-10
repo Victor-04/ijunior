@@ -7,16 +7,14 @@ namespace main_1
 {
     public class Task28 : ITask
     {
-
         public void Run()
         {
             string password = "12345";
             string secretLine = "secret line";
-
             string inputLine = "";
-            int attempt = 0;
+            int numberAttempts = 3;
 
-            while (attempt < 3) 
+            for (int attempt = 0; attempt < numberAttempts; attempt++) 
             {
                 Console.Write("Введите пароль: ");
                 inputLine = Console.ReadLine();
@@ -30,7 +28,6 @@ namespace main_1
                 {
                     Console.WriteLine("Ошибка, попробуйте снова");
                 }
-                attempt++;
             }
         }
     }
