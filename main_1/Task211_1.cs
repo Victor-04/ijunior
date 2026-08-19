@@ -27,7 +27,7 @@ namespace main_1
 
             const string Command1 = "Attack";
             const string Command2 = "Fireball";
-            const string Command3 = "Explosion";
+            const string Command3 = "Сharge";
             const string Command4 = "Healing";
             const string Command5 = "Сomplete"; // завершить ход
 
