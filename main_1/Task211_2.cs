@@ -58,32 +58,9 @@ namespace main_1
 
             while (healthBarHero > 0 && healthBarEnemy > 0)
             {
-                if (commandAvailability [CommandFireball] == false)
-                {
-                    commandAvailability [CommandAttack] = true;
-                }
-                else
-                {
-                    commandAvailability [CommandAttack] = false;
-                }
-
-                if (magicEnergyBarHero >= CostMagic && commandAvailability [CommandFireball] == false)
-                {
-                    commandAvailability [CommandCharge] = true;
-                }
-                else
-                {
-                    commandAvailability [CommandCharge] = false;
-                }
-
-                if (healthBottleCount > 0 && commandAvailability [CommandFireball] == false)
-                {
-                    commandAvailability [CommandHealing] = true;
-                }
-                else
-                {
-                    commandAvailability [CommandHealing] = false;
-                }
+                commandAvailability[CommandAttack] = !commandAvailability[CommandFireball];
+                commandAvailability[CommandCharge] = magicEnergyBarHero >= CostMagic && !commandAvailability[CommandFireball];
+                commandAvailability[CommandHealing] = healthBottleCount > 0 && !commandAvailability[CommandFireball];
 
                 Console.Clear();
                 // проверка доступности команд
@@ -113,7 +90,7 @@ namespace main_1
                 switch (inputCommand)
                 {
                     case CommandAttack:
-                        if (commandAvailability [CommandAttack])
+                        if (commandAvailability[CommandAttack])
                         {
                             healthBarEnemy -= random.Next(DownBorderDamageHero, UpBorderDamageHero + 1);
                             healthBarEnemy = NormalizeNumber(healthBarEnemy);
@@ -121,7 +98,7 @@ namespace main_1
                         break;
 
                     case CommandFireball:
-                        if (commandAvailability [CommandFireball])
+                        if (commandAvailability[CommandFireball])
                         {
                             healthBarEnemy -= DamageFireball;
                             commandAvailability [CommandFireball] = false;
@@ -130,16 +107,16 @@ namespace main_1
                         break;
 
                     case CommandCharge:
-                        if (commandAvailability [CommandCharge])
+                        if (commandAvailability[CommandCharge])
                         {
                             magicEnergyBarHero -= CostMagic;
-                            commandAvailability [CommandCharge] = false;
-                            commandAvailability [CommandFireball] = true;
+                            commandAvailability[CommandCharge] = false;
+                            commandAvailability[CommandFireball] = true;
                         }
                         break;
 
                     case CommandHealing:
-                        if (commandAvailability [CommandHealing])
+                        if (commandAvailability[CommandHealing])
                         {
                             healthBottleCount -= 1;
                             healthBarHero = MaxHealthHero;

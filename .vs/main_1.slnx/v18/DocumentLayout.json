@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task211_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|c:\\users\\v\\desktop\\c_sharp\\ijunior\\main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -73,7 +73,7 @@
               "RelativeDocumentMoniker": "main_1\\Task211_2.cs",
               "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task211_2.cs",
               "RelativeToolTip": "main_1\\Task211_2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-20T18:08:45.8Z",
               "EditorCaption": ""
@@ -100,8 +100,7 @@
               "RelativeToolTip": "main_1\\Task211_1.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T19:09:01.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T19:09:01.787Z"
             },
             {
               "$type": "Document",
