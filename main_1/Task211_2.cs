@@ -30,7 +30,7 @@ namespace main_1
             const string CommandCharge = "3";
             const string CommandHealing = "4";
 
-            var commandsNameDict = new Dictionary<string, string>
+            var commandNames = new Dictionary<string, string>
             {
                 [CommandAttack] = "Attack",
                 [CommandFireball] = "Fireball",
@@ -38,7 +38,7 @@ namespace main_1
                 [CommandHealing] = "Healing"
             };
 
-            var commandsStatusDict = new Dictionary<string, bool>
+            var commandAvailability  = new Dictionary<string, bool>
             {
                 [CommandAttack] = true,
                 [CommandFireball] = false,
@@ -58,40 +58,40 @@ namespace main_1
 
             while (healthBarHero > 0 && healthBarEnemy > 0)
             {
-                if (commandsStatusDict[CommandFireball] == false)
+                if (commandAvailability [CommandFireball] == false)
                 {
-                    commandsStatusDict[CommandAttack] = true;
+                    commandAvailability [CommandAttack] = true;
                 }
                 else
                 {
-                    commandsStatusDict[CommandAttack] = false;
+                    commandAvailability [CommandAttack] = false;
                 }
 
-                if (magicEnergyBarHero >= CostMagic && commandsStatusDict[CommandFireball] == false)
+                if (magicEnergyBarHero >= CostMagic && commandAvailability [CommandFireball] == false)
                 {
-                    commandsStatusDict[CommandCharge] = true;
+                    commandAvailability [CommandCharge] = true;
                 }
                 else
                 {
-                    commandsStatusDict[CommandCharge] = false;
+                    commandAvailability [CommandCharge] = false;
                 }
 
-                if (healthBottleCount > 0 && commandsStatusDict[CommandFireball] == false)
+                if (healthBottleCount > 0 && commandAvailability [CommandFireball] == false)
                 {
-                    commandsStatusDict[CommandHealing] = true;
+                    commandAvailability [CommandHealing] = true;
                 }
                 else
                 {
-                    commandsStatusDict[CommandHealing] = false;
+                    commandAvailability [CommandHealing] = false;
                 }
 
                 Console.Clear();
                 // проверка доступности команд
                 Console.WriteLine("====-- Command list --====");
-                Console.WriteLine($"====-- press {CommandAttack} - {commandsNameDict[CommandAttack]}, status: {commandsStatusDict[CommandAttack]} --====");
-                Console.WriteLine($"====-- press {CommandFireball} - {commandsNameDict[CommandFireball]}, status: {commandsStatusDict[CommandFireball]} --====");
-                Console.WriteLine($"====-- press {CommandCharge} - {commandsNameDict[CommandCharge]}, status: {commandsStatusDict[CommandCharge]} --====");
-                Console.WriteLine($"====-- press {CommandHealing} - {commandsNameDict[CommandHealing]}, status: {commandsStatusDict[CommandHealing]} --====");
+                Console.WriteLine($"====-- press key ({CommandAttack}) - {commandNames[CommandAttack]}, status: {commandAvailability [CommandAttack]} --====");
+                Console.WriteLine($"====-- press key ({CommandFireball}) - {commandNames[CommandFireball]}, status: {commandAvailability [CommandFireball]} --====");
+                Console.WriteLine($"====-- press key ({CommandCharge}) - {commandNames[CommandCharge]}, status: {commandAvailability [CommandCharge]} --====");
+                Console.WriteLine($"====-- press key ({CommandHealing}) - {commandNames[CommandHealing]}, status: {commandAvailability [CommandHealing]} --====");
                 Console.WriteLine("------------------------------");
                 Console.WriteLine();
                 Console.WriteLine($"Enemy Base Damage: {DownBorderDamageEnemy} - {UpBorderDamageEnemy}");
@@ -113,7 +113,7 @@ namespace main_1
                 switch (inputCommand)
                 {
                     case CommandAttack:
-                        if (commandsStatusDict[CommandAttack])
+                        if (commandAvailability [CommandAttack])
                         {
                             healthBarEnemy -= random.Next(DownBorderDamageHero, UpBorderDamageHero + 1);
                             healthBarEnemy = NormalizeNumber(healthBarEnemy);
@@ -121,25 +121,25 @@ namespace main_1
                         break;
 
                     case CommandFireball:
-                        if (commandsStatusDict[CommandFireball])
+                        if (commandAvailability [CommandFireball])
                         {
                             healthBarEnemy -= DamageFireball;
-                            commandsStatusDict[CommandFireball] = false;
+                            commandAvailability [CommandFireball] = false;
                             healthBarEnemy = NormalizeNumber(healthBarEnemy);
                         }
                         break;
 
                     case CommandCharge:
-                        if (commandsStatusDict[CommandCharge])
+                        if (commandAvailability [CommandCharge])
                         {
                             magicEnergyBarHero -= CostMagic;
-                            commandsStatusDict[CommandCharge] = false;
-                            commandsStatusDict[CommandFireball] = true;
+                            commandAvailability [CommandCharge] = false;
+                            commandAvailability [CommandFireball] = true;
                         }
                         break;
 
                     case CommandHealing:
-                        if (commandsStatusDict[CommandHealing])
+                        if (commandAvailability [CommandHealing])
                         {
                             healthBottleCount -= 1;
                             healthBarHero = MaxHealthHero;
