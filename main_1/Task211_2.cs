@@ -177,8 +177,6 @@ namespace main_1
                 Console.WriteLine("====----------------------------------------------====");
                 Console.WriteLine("====-- 🕇 You Lose 🕇 --====");
             }
-
-            return;
         }
 
         private string DisplayPointsBar(int nowStatus, int maxStatus, int sizeFraction)
