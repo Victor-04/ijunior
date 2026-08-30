@@ -10,8 +10,8 @@ namespace main_1
             const int MinBorderMatrix = 5;
             const int MaxBorderNumber = 9;
             const int MinBorderNumber = 1;
-            const int IndexSumRow = 1;          // первая строка
-            const int IndexmultiplColumn = 0;   // второй столбец 
+            const int IndexSumRow = 1;          // вторая строка
+            const int IndexmultiplColumn = 0;   // первый столбец 
 
             Random random = new Random();
             int rows = random.Next(MinBorderMatrix, MaxBorderMatrix + 1);
