@@ -11,13 +11,13 @@ namespace main_1
             const int MaxBorderNumber = 9;
             const int MinBorderNumber = 1;
             const int IndexSumRow = 1;          // вторая строка
-            const int IndexmultiplColumn = 0;   // первый столбец 
+            const int IndexMultiplyColumn = 0;   // первый столбец 
 
             Random random = new Random();
             int rows = random.Next(MinBorderMatrix, MaxBorderMatrix + 1);
             int columns = random.Next(MinBorderMatrix, MaxBorderMatrix + 1);
             int sumRow = 0;         
-            int multiplColumn = 1;  
+            int multiplyColumn = 1;  
 
             Console.WriteLine();
             Console.WriteLine($"rows: {rows}");
@@ -35,26 +35,21 @@ namespace main_1
                 }
                 Console.WriteLine();
             }
+
             Console.WriteLine("---------------------");
+
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                sumRow += matrix[IndexSumRow, j];
+            }
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < matrix.GetLength(1); j++)
-                {
-                    if (i == IndexSumRow)
-                    {
-                        sumRow += matrix[i, j];
-                    }
-
-                    if (j == IndexmultiplColumn) 
-                    {
-                        multiplColumn *= matrix[i, j];
-                    }
-                }
+                multiplyColumn *= matrix[i, IndexMultiplyColumn];
             }
 
             Console.WriteLine($"sum {IndexSumRow} Row: {sumRow}");
-            Console.WriteLine($"multipl {IndexmultiplColumn} Column: {multiplColumn}");
+            Console.WriteLine($"multiply {IndexMultiplyColumn} Column: {multiplyColumn}");
         }
     }
 }
