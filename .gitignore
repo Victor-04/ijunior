@@ -1,0 +1,81 @@
+# Игнорирование файлов Visual Studio и .NET
+## Стандартные папки сборки
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]pp_[Pp]ackages/
+[Ll]ogs/
+
+## Файлы пользовательских настроек VS
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.vsidx          # <-- как раз то, что вы просили
+*.vsconfig
+*.vssettings
+
+## Папка .vs (содержит настройки, индекс, кеш)
+.vs/
+
+## Временные файлы
+*.tmp
+*.temp
+*_flymake.*
+*.log
+*.cache
+*.pidb
+*.pdb
+*.mdb
+*.pidb
+*.ilk
+*.sbr
+*.obj
+*.lib
+*.exe
+*.dll
+*.pdb
+*.exp
+*.metaproj
+*.metaproj.tmp
+*.build
+*.build.tmp
+
+## Файлы покрытия тестов
+*.coverage
+*.coveragexml
+*.trx
+*.TestResults
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+## Редакторы / IDE
+*.swp
+*~
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Пользовательские файлы (добавьте свои при необходимости)
+# Например, если используете локальные строки подключения
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+
+## Файлы сборки (если есть)
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
