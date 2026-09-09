@@ -13,46 +13,41 @@ namespace main_1
             string inputLine = "";
             int[] inputNumbers = { };
             int sumNumbers = 0;
-            int occupancyCounter = 0; 
+            int occupancyCounter = 0;
+            int tempNumber = 0;
 
             while (true) 
             {
-                Console.Write("Введите значение: ");
+                Console.Clear();
+                Console.WriteLine("Enter 'sum' to calculate the sum");
+                Console.WriteLine("Enter 'end' to exit the program");
+                Console.WriteLine($"Sum numbers: {sumNumbers}");
+                Console.Write("Input value: ");
                 inputLine = Console.ReadLine();
                 Console.WriteLine();
 
-                switch (inputLine)
-                {
-                    case SumCommand:
-
-                        foreach (var item in inputNumbers)
-                        {
-                            sumNumbers += item;
-                        }
-                        break;
-
-                    default:
-                        if (inputNumbers.Length == occupancyCounter)
-                        {
-                            int[] arrayTemp = new int[occupancyCounter + 1];
-
-                            for (int i = 0; i < inputNumbers.Length; i++)
-                            {
-                                arrayTemp[i] = inputNumbers[i];
-                            }
-
-                            arrayTemp[inputNumbers.Length] = Convert.ToInt32(inputLine);
-                            inputNumbers = arrayTemp;
-                            occupancyCounter++;
-                        }
-                        break;
-                }
-
                 if (inputLine == SumCommand || inputLine == EndCommand)
                     break;
+                
+                if (inputNumbers.Length == occupancyCounter)
+                {
+                    int[] arrayTemp = new int[occupancyCounter + 1];
+
+                    for (int i = 0; i < inputNumbers.Length; i++)
+                    {
+                        arrayTemp[i] = inputNumbers[i];
+                    }
+
+                    tempNumber = Convert.ToInt32(inputLine);
+                    arrayTemp[inputNumbers.Length] = tempNumber;
+                    sumNumbers += tempNumber;
+                    inputNumbers = arrayTemp;
+                    occupancyCounter++;
+                }
             }
 
-            Console.WriteLine($"sumNumbers: {sumNumbers}");
+            Console.Clear();
+            Console.WriteLine($"Sum numbers: {sumNumbers}");
         }
     }
 }
