@@ -30,51 +30,47 @@ namespace main_1
 
             int arrayLength = array.Length;
             string localMaxElements = "";
+            int firstElement = 0;
 
-            for (int i = 0; i < arrayLength; i++)
+            
+            if (array[firstElement] > array[firstElement + 1])
             {
-                if (i == 0)
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(array[firstElement] + " ");
+                Console.ResetColor();
+                localMaxElements += $"{array[firstElement]} ";
+            }
+            else
+            {
+                Console.Write(array[firstElement] + " ");
+            }
+
+            for (int i = 1; i < arrayLength - 1; i++)
+            {
+                
+                if (array[i - 1] < array[i] && array[i] > array[i + 1])
                 {
-                    if (array[i] > array[i + 1])
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(array[i] + " ");
-                        Console.ResetColor();
-                        localMaxElements += $"{array[i]} ";
-                    }
-                    else
-                    {
-                        Console.Write(array[i] + " ");
-                    }
-                }
-                else if (i == arrayLength - 1)
-                {
-                    if (array[i - 1] < array[i])
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(array[i] + " ");
-                        Console.ResetColor();
-                        localMaxElements += $"{array[i]} ";
-                    }
-                    else
-                    {
-                        Console.Write(array[i] + " ");
-                    }
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(array[i] + " ");
+                    Console.ResetColor();
+                    localMaxElements += $"{array[i]} ";
                 }
                 else
                 {
-                    if (array[i - 1] < array[i] && array[i] > array[i + 1])
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(array[i] + " ");
-                        Console.ResetColor();
-                        localMaxElements += $"{array[i]} ";
-                    }
-                    else
-                    {
-                        Console.Write(array[i] + " ");
-                    }
+                    Console.Write(array[i] + " ");
                 }
+            }
+
+            if (array[arrayLength - 2] < array[arrayLength - 1])
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(array[arrayLength - 1] + " ");
+                Console.ResetColor();
+                localMaxElements += $"{array[arrayLength - 1]} ";
+            }
+            else
+            {
+                Console.Write(array[arrayLength - 1] + " ");
             }
 
             Console.WriteLine();
