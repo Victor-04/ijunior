@@ -12,3 +12,10 @@ C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.csproj.AssemblyRefere
 C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.csproj.CoreCompileInputs.cache
 C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.exe
 C:\Users\V\Desktop\c_sharp\ijunior\main_1\obj\Debug\main_1.pdb
+D:\Games\ijunior_main\main_1\bin\Debug\main_1.exe.config
+D:\Games\ijunior_main\main_1\bin\Debug\main_1.exe
+D:\Games\ijunior_main\main_1\bin\Debug\main_1.pdb
+D:\Games\ijunior_main\main_1\obj\Debug\main_1.csproj.AssemblyReference.cache
+D:\Games\ijunior_main\main_1\obj\Debug\main_1.csproj.CoreCompileInputs.cache
+D:\Games\ijunior_main\main_1\obj\Debug\main_1.exe
+D:\Games\ijunior_main\main_1\obj\Debug\main_1.pdb
