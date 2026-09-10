@@ -17,8 +17,8 @@ namespace main_1
             while (inputLine != EndCommand)
             {
                 Console.Clear();
-                Console.WriteLine($"Enter {SumCommand} to calculate the sum");
-                Console.WriteLine($"Enter {EndCommand} to exit the program");
+                Console.WriteLine($"Enter '{SumCommand}' to calculate the sum");
+                Console.WriteLine($"Enter '{EndCommand}' to exit the program");
                 Console.WriteLine("< ----------------------------------- >");
                 Console.Write("[ ");
                 foreach (var item in inputNumbers)
