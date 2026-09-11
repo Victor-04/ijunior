@@ -47,7 +47,7 @@ namespace main_1
                 if (array[i] == array[i - 1])
                 {
                     int lengthArray = indexElements.Length;
-                    int[] tempArray = new int[indexElements.Length + 1]; ;
+                    int[] tempArray = new int[lengthArray + 1];
 
                     for (int j = 0; j < lengthArray; j++)
                     {
