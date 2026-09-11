@@ -4,7 +4,7 @@ using System.Runtime.InteropServices.Expando;
 
 namespace main_1
 {
-    public class Task35 : ITask
+    public class Task35_1 : ITask
     {
         public void Run()
         {
@@ -33,18 +33,12 @@ namespace main_1
             // ---------------------------
 
             int arrayLength = array.Length;
-            int indexElementsLineLength = 0;
-
-
-            int[] indexElements = { };
             int numberRepetitions = 0;
             int numberTarget = 0;
-
-            int[] indexElementsMax = { };
             int numberRepetitionsMax = 0;
             int numberTargetMax = 0;
 
-            indexElements = new int[] { 0 };
+            int[] indexElements = new int[] { 0 };
             numberTarget = array[0];
             numberRepetitions++;
 
@@ -52,7 +46,16 @@ namespace main_1
             {
                 if (array[i] == array[i - 1])
                 {
-                    indexElements = expandArray(indexElements, i);
+                    int lengthArray = indexElements.Length;
+                    int[] tempArray = new int[indexElements.Length + 1]; ;
+
+                    for (int j = 0; j < lengthArray; j++)
+                    {
+                        tempArray[j] = indexElements[j];
+                    }
+
+                    tempArray[lengthArray] = i;
+                    indexElements = tempArray;
                     numberTarget = array[i];
                     numberRepetitions++;
                 }
@@ -60,7 +63,6 @@ namespace main_1
                 {
                     if (numberRepetitions > numberRepetitionsMax)
                     {
-                        indexElementsMax = indexElements;
                         numberTargetMax = numberTarget;
                         numberRepetitionsMax = numberRepetitions;
                     }
@@ -70,23 +72,7 @@ namespace main_1
                 }
             }
 
-            indexElementsLineLength = indexElementsMax.Length;
-
-            for (int i = 0; i < arrayLength; i++)
-            {
-                if (i >= indexElementsMax[0] && i <= indexElementsMax[indexElementsLineLength - 1])
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write(array[i] + " ");
-                    Console.ResetColor();
-                }
-                else 
-                {
-                    Console.Write(array[i] + " ");
-                }
-            }
-
-            Console.Write($"\n\n Число ");
+            Console.Write($"\n Число ");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(numberTargetMax);
             Console.ResetColor();
@@ -95,21 +81,6 @@ namespace main_1
             Console.Write(numberRepetitionsMax);
             Console.ResetColor();
             Console.WriteLine(" раза подряд");
-        }
-
-        public int[] expandArray(int[] inputArary, int number)
-        {
-            int lengthArray = inputArary.Length;
-            int[] tempArray = new int[lengthArray + 1]; ;
-
-            for (int i = 0; i < lengthArray; i++)
-            {
-                tempArray[i] = inputArary[i];
-            }
-
-            tempArray[lengthArray] = number;
-
-            return tempArray;
         }
     }
 }
