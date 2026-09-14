@@ -1,53 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\",
+  "WorkspaceRootPath": "D:\\C_sharp\\ijunior\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|c:\\users\\v\\desktop\\c_sharp\\ijunior\\main_1\\task34.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\c_sharp\\ijunior\\main_1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C_sharp\\ijunior\\main_1\\Task35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main_1\\Task35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task34.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task34.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|c:\\users\\v\\desktop\\c_sharp\\ijunior\\main_1\\task33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\c_sharp\\ijunior\\main_1\\task33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task211_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task211_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task211_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task31.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task31.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task31.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task211_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|c:\\users\\v\\desktop\\c_sharp\\ijunior\\main_1\\task26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|d:\\c_sharp\\ijunior\\main_1\\task26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\task210.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|D:\\C_sharp\\ijunior\\main_1\\task210.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA94DB9-0BBF-4964-915F-6C0853C6EF01}|main_1\\main_1.csproj|solutionrelative:main_1\\task210.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,8 +70,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 520,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -71,23 +87,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task34.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task34.cs",
-              "RelativeDocumentMoniker": "main_1\\Task34.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task34.cs*",
-              "RelativeToolTip": "main_1\\Task34.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwC0AAAARAAAAAAAAAA==",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "main_1\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "main_1\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T12:40:34.228Z",
+              "WhenOpened": "2026-09-14T08:08:10.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task35.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task35.cs",
+              "RelativeDocumentMoniker": "main_1\\Task35.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task35.cs",
+              "RelativeToolTip": "main_1\\Task35.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:07:43.866Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\App.config",
+              "RelativeDocumentMoniker": "main_1\\App.config",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\App.config",
+              "RelativeToolTip": "main_1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-14T08:08:47.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task34.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task34.cs",
+              "RelativeDocumentMoniker": "main_1\\Task34.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task34.cs",
+              "RelativeToolTip": "main_1\\Task34.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T12:40:34.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Task32.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task32.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task32.cs",
               "RelativeDocumentMoniker": "main_1\\Task32.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task32.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task32.cs",
               "RelativeToolTip": "main_1\\Task32.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,11 +151,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Task31.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task31.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task31.cs",
               "RelativeDocumentMoniker": "main_1\\Task31.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task31.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task31.cs",
               "RelativeToolTip": "main_1\\Task31.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Task4.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task4.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task4.cs",
               "RelativeDocumentMoniker": "main_1\\Task4.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task4.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task4.cs",
               "RelativeToolTip": "main_1\\Task4.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Task211_2.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task211_2.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task211_2.cs",
               "RelativeDocumentMoniker": "main_1\\Task211_2.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task211_2.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task211_2.cs",
               "RelativeToolTip": "main_1\\Task211_2.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAuwFsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,11 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Task27.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task27.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task27.cs",
               "RelativeDocumentMoniker": "main_1\\Task27.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task27.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task27.cs",
               "RelativeToolTip": "main_1\\Task27.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Task211_1.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task211_1.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task211_1.cs",
               "RelativeDocumentMoniker": "main_1\\Task211_1.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task211_1.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task211_1.cs",
               "RelativeToolTip": "main_1\\Task211_1.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +212,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Task210.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task210.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task210.cs",
               "RelativeDocumentMoniker": "main_1\\Task210.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task210.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task210.cs",
               "RelativeToolTip": "main_1\\Task210.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,11 +224,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Task29.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task29.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task29.cs",
               "RelativeDocumentMoniker": "main_1\\Task29.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task29.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task29.cs",
               "RelativeToolTip": "main_1\\Task29.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +236,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Task28.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task28.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task28.cs",
               "RelativeDocumentMoniker": "main_1\\Task28.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task28.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task28.cs",
               "RelativeToolTip": "main_1\\Task28.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,15 +254,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d455e273-1acb-491f-b5c9-760a99044cf9}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Task33.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task33.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task33.cs",
               "RelativeDocumentMoniker": "main_1\\Task33.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task33.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task33.cs",
               "RelativeToolTip": "main_1\\Task33.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,11 +277,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Task26.cs",
-              "DocumentMoniker": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task26.cs",
+              "DocumentMoniker": "D:\\C_sharp\\ijunior\\main_1\\Task26.cs",
               "RelativeDocumentMoniker": "main_1\\Task26.cs",
-              "ToolTip": "C:\\Users\\V\\Desktop\\c_sharp\\ijunior\\main_1\\Task26.cs",
+              "ToolTip": "D:\\C_sharp\\ijunior\\main_1\\Task26.cs",
               "RelativeToolTip": "main_1\\Task26.cs",
               "ViewState": "AgIAAN8AAAAAAAAAAAAQwO0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

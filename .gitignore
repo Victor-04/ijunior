@@ -79,3 +79,7 @@ appsettings.Local.json
 *.dll
 *.so
 *.dylib
+
+bin/
+obj/
+.vs/
