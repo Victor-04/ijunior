@@ -38,37 +38,37 @@ namespace main_1
             int numberRepetitionsMax = 0;
             int numberTargetMax = 0;
 
-            int[] indexElements = new int[] { 0 };
-            numberTarget = array[0];
-            numberRepetitions++;
-
-            for (int i = 1; i < arrayLength; i++)
+            if (arrayLength != 0)
             {
-                if (array[i] == array[i - 1])
-                {
-                    int lengthArray = indexElements.Length;
-                    int[] tempArray = new int[lengthArray + 1];
+                numberTarget = array[0];
+                numberRepetitions++;
 
-                    for (int j = 0; j < lengthArray; j++)
-                    {
-                        tempArray[j] = indexElements[j];
-                    }
-
-                    tempArray[lengthArray] = i;
-                    indexElements = tempArray;
-                    numberTarget = array[i];
-                    numberRepetitions++;
-                }
-                else 
+                for (int i = 1; i <= arrayLength; i++)
                 {
-                    if (numberRepetitions > numberRepetitionsMax)
+
+                    if (i == arrayLength)
                     {
-                        numberTargetMax = numberTarget;
-                        numberRepetitionsMax = numberRepetitions;
+                        if (numberRepetitions > numberRepetitionsMax)
+                        {
+                            numberTargetMax = numberTarget;
+                            numberRepetitionsMax = numberRepetitions;
+                        }
                     }
-                        indexElements = new int[] { i };
+                    else if (array[i] == array[i - 1])
+                    {
+                        numberTarget = array[i];
+                        numberRepetitions++;
+                    }
+                    else
+                    {
+                        if (numberRepetitions > numberRepetitionsMax)
+                        {
+                            numberTargetMax = numberTarget;
+                            numberRepetitionsMax = numberRepetitions;
+                        }
                         numberTarget = array[i];
                         numberRepetitions = 1;
+                    }
                 }
             }
 
