@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Reflection;
-using System.Runtime.InteropServices.Expando;
 
 namespace main_1
 {
@@ -8,12 +6,12 @@ namespace main_1
     {
         public void Run()
         {
-            const int BorderArray = 30;
-            const int MaxBorderNumber = 9;
-            const int MinBorderNumber = 1;
+            const int ArraySize = 30;
+            const int MaxValue= 9;
+            const int MinValue = 1;
 
             Random random = new Random();
-            int row = BorderArray;
+            int row = ArraySize;
 
             Console.WriteLine();
             Console.WriteLine($"row: {row}");
@@ -23,7 +21,7 @@ namespace main_1
 
             for (int i = 0; i < row; i++)
             {
-                array[i] = random.Next(MinBorderNumber, MaxBorderNumber + 1);
+                array[i] = random.Next(MinValue, MaxValue + 1);
                 Console.Write(array[i] + " ");
             }
 
@@ -33,52 +31,52 @@ namespace main_1
             // ---------------------------
 
             int arrayLength = array.Length;
-            int numberRepetitions = 0;
-            int numberTarget = 0;
-            int numberRepetitionsMax = 0;
-            int numberTargetMax = 0;
+            int currentCount = 0;
+            int currentValue = 0;
+            int bestCount = 0;
+            int bestValue = 0;
 
             if (arrayLength != 0)
             {
-                numberTarget = array[0];
-                numberRepetitions++;
+                currentValue = array[0];
+                currentCount++;
 
                 for (int i = 1; i <= arrayLength; i++)
                 {
 
                     if (i == arrayLength)
                     {
-                        if (numberRepetitions > numberRepetitionsMax)
+                        if (currentCount > bestCount)
                         {
-                            numberTargetMax = numberTarget;
-                            numberRepetitionsMax = numberRepetitions;
+                            bestValue = currentValue;
+                            bestCount = currentCount;
                         }
                     }
                     else if (array[i] == array[i - 1])
                     {
-                        numberTarget = array[i];
-                        numberRepetitions++;
+                        currentValue = array[i];
+                        currentCount++;
                     }
                     else
                     {
-                        if (numberRepetitions > numberRepetitionsMax)
+                        if (currentCount > bestCount)
                         {
-                            numberTargetMax = numberTarget;
-                            numberRepetitionsMax = numberRepetitions;
+                            bestValue = currentValue;
+                            bestCount = currentCount;
                         }
-                        numberTarget = array[i];
-                        numberRepetitions = 1;
+                        currentValue = array[i];
+                        currentCount = 1;
                     }
                 }
             }
 
             Console.Write($"\n Число ");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write(numberTargetMax);
+            Console.Write(bestValue);
             Console.ResetColor();
             Console.Write(" повторяется ");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(numberRepetitionsMax);
+            Console.Write(bestCount);
             Console.ResetColor();
             Console.WriteLine(" раза подряд");
         }

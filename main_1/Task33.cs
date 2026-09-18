@@ -6,12 +6,12 @@ namespace main_1
     {
         public void Run()
         {
-            const int BorderArray = 30;
+            const int ArraySize = 30;
             const int MaxBorderNumber = 99;
             const int MinBorderNumber = 10;
 
             Random random = new Random();
-            int row = BorderArray;
+            int row = ArraySize;
 
             Console.WriteLine();
             Console.WriteLine($"rows: {row}");
