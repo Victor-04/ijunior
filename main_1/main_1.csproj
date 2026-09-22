@@ -61,6 +61,7 @@
     <Compile Include="Task34_1.cs" />
     <Compile Include="Task34.cs" />
     <Compile Include="Task35.cs" />
+    <Compile Include="Task36.cs" />
     <Compile Include="Task35_1.cs" />
     <Compile Include="Task33.cs" />
     <Compile Include="Task32.cs" />
