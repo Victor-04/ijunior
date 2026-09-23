@@ -45,6 +45,15 @@
   <ItemGroup>
     <Compile Include="ITask.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Task37.cs" />
+    <Compile Include="Task36.cs" />
+    <Compile Include="Task35_1.cs" />
+    <Compile Include="Task34_1.cs" />
+    <Compile Include="Task34.cs" />
+    <Compile Include="Task35.cs" />
+    <Compile Include="Task33.cs" />
+    <Compile Include="Task32.cs" />
+    <Compile Include="Task31.cs" />
     <Compile Include="Task211_2.cs" />
     <Compile Include="Task211_1.cs" />
     <Compile Include="Task26_6.cs" />
@@ -58,14 +67,6 @@
     <Compile Include="Task29.cs" />
     <Compile Include="Task28.cs" />
     <Compile Include="Task27.cs" />
-    <Compile Include="Task34_1.cs" />
-    <Compile Include="Task34.cs" />
-    <Compile Include="Task35.cs" />
-    <Compile Include="Task36.cs" />
-    <Compile Include="Task35_1.cs" />
-    <Compile Include="Task33.cs" />
-    <Compile Include="Task32.cs" />
-    <Compile Include="Task31.cs" />
     <Compile Include="Task7.cs" />
     <Compile Include="Task6.cs" />
     <Compile Include="Task5.cs" />
