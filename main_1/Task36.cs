@@ -25,58 +25,30 @@ namespace main_1
                 Console.Write(array[i] + " ");
             }
 
-            Console.WriteLine();
-            Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+            Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
 
-            int arrayLength = array.Length;
-            int currentCount = 0;
-            int currentValue = 0;
-            int bestCount = 0;
-            int bestValue = 0;
+            int arrayLength = array.Length - 1;
 
-            if (arrayLength != 0)
+            for (int i = 0; i < arrayLength; i++)
             {
-                currentValue = array[0];
-                currentCount++;
-
-                for (int i = 1; i <= arrayLength; i++)
+                for (int j = 0; j < arrayLength; j++)
                 {
-
-                    if (i == arrayLength)
+                    if (array[j] > array[j + 1])
                     {
-                        if (currentCount > bestCount)
-                        {
-                            bestValue = currentValue;
-                            bestCount = currentCount;
-                        }
-                    }
-                    else if (array[i] == array[i - 1])
-                    {
-                        currentValue = array[i];
-                        currentCount++;
-                    }
-                    else
-                    {
-                        if (currentCount > bestCount)
-                        {
-                            bestValue = currentValue;
-                            bestCount = currentCount;
-                        }
-                        currentValue = array[i];
-                        currentCount = 1;
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
                     }
                 }
             }
 
-            Console.Write($"\n Число ");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write(bestValue);
-            Console.ResetColor();
-            Console.Write(" повторяется ");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(bestCount);
-            Console.ResetColor();
-            Console.WriteLine(" раза подряд");
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
+
+            Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+
         }
     }
 }
