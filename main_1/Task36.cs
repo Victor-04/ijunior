@@ -11,15 +11,14 @@ namespace main_1
             const int MinValue = 1;
 
             Random random = new Random();
-            int row = ArraySize;
 
             Console.WriteLine();
-            Console.WriteLine($"row: {row}");
+            Console.WriteLine($"Array size: {ArraySize}");
             Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
 
-            int[] array = new int[row];
+            int[] array = new int[ArraySize];
 
-            for (int i = 0; i < row; i++)
+            for (int i = 0; i < ArraySize; i++)
             {
                 array[i] = random.Next(MinValue, MaxValue + 1);
                 Console.Write(array[i] + " ");
@@ -27,11 +26,11 @@ namespace main_1
 
             Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
 
-            int arrayLength = array.Length - 1;
+            int iterations = array.Length - 1;
 
-            for (int i = 0; i < arrayLength; i++)
+            for (int i = 0; i < iterations; i++)
             {
-                for (int j = 0; j < arrayLength; j++)
+                for (int j = 0; j < iterations; j++)
                 {
                     if (array[j] > array[j + 1])
                     {
