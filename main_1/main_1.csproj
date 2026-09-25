@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ITask.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Task38.cs" />
     <Compile Include="Task37.cs" />
     <Compile Include="Task36.cs" />
     <Compile Include="Task35_1.cs" />

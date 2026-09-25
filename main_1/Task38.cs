@@ -6,22 +6,39 @@ namespace main_1
     {
         public void Run()
         {
-            string row = "Duis aute irure " +
-                "dolor in reprehenderit in voluptate, " +
-                "nam libero tempore, cum soluta nobis est " +
-                "eligendi optio, cumque nihil impedit, quo minus " +
-                "id, quod maxime placeat, facere possimus, omnis " +
-                "voluptas assumenda est, omnis dolor repellendus.";
+            Console.WriteLine();
 
-            Console.WriteLine($"{row}\n");
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 
-            string[] words = row.Split();
-            Console.WriteLine($"words.Length: {words.Length}");
-
-            for (int i = 0; i < words.Length; i++)
+            foreach (var item in array)
             {
-                Console.WriteLine($"[{i}]: {words[i]}");
+                Console.Write(item + " ");
             }
+            Console.Write("\nВведите смещение: ");
+
+            int shifts = Convert.ToInt32(Console.ReadLine());
+
+            if (array.Length > 0)
+            {
+                for (int s = 1; s <= shifts; s++)
+                {
+                    int lastElement = array[0];
+
+                    for (int i = 0; i < array.Length - 1; i++)
+                    {
+                        array[i] = array[i + 1];
+                    }
+                    array[array.Length - 1] = lastElement;
+                }
+            }    
+
+            Console.WriteLine();
+
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
