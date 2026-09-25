@@ -11,7 +11,7 @@ namespace main_1
             var random = new Random();
 
             int targetValue = 0;
-            int maxBorder = 100;
+            //int maxBorder = 100;
             int firstСondition = 3; // эффективнее такие данные держать в массиве (но мы их еще не проходили :) )
             int secondCondition = 5;
             int totalSum = 0;

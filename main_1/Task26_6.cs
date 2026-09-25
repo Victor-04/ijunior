@@ -209,7 +209,7 @@ namespace main_1
                 return;
             }
 
-            double rateConvert = 0;
+            //double rateConvert = 0;
 
             if (ratesCurrency[inCurrency] > ratesCurrency[outCurrency])
             {
